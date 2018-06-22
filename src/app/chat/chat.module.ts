@@ -9,7 +9,9 @@ import { ChatService } from './chat.service';
     CommonModule,
     FormsModule
   ],
-  declarations: [ChatDialogComponent],
+  declarations: [
+    ChatDialogComponent
+  ],
   exports: [ ChatDialogComponent ], // <-- export here
   providers: [ChatService]
 })
